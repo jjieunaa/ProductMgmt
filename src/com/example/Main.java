@@ -13,9 +13,6 @@ public class Main {
 		sort.sort();
 		
 		Output output = new Output(array);
-		output.output();
-		
-		
-		
+		output.output();	// 화면 출력
 	}
 }

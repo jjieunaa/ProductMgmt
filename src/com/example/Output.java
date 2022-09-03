@@ -1,8 +1,13 @@
 package com.example;
 
+import java.io.File;
+import java.io.PrintWriter;
+
 public class Output {
 	private Product [] array;
-
+	private File file;
+	private PrintWriter writer;
+	
 	public Output(Product[] array) {
 		this.array = array;
 	}
