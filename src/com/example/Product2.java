@@ -77,7 +77,6 @@ public class Product2 extends Object implements Comparable<Product2>{
 
 	@Override
 	public int compareTo(Product2 o) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 }
